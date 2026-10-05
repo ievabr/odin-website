@@ -1,6 +1,7 @@
 body {
     font-family: Roboto;
     text-align: center;
+    margin:0;
   
 
 }
@@ -52,7 +53,8 @@ img {
   background-color: #1F2937;
   color: white;
   justify-content: space-between;
-  padding: 50px 200px;
+  padding: 50px 10%;
+
   gap:50px;
   align-items: stretch;
   margin: 0;
@@ -71,15 +73,20 @@ ul {
   gap:10px;
   list-style-type: none;
   margin:0;
-  padding:0
+  padding:0;
 }
 
 .top {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
   padding: 50px auto;
 }
 
 .text {
   text-wrap: wrap;
+  padding-left:20%;
+  padding-right:20%;
 }
 .small_img {
   width: 100px;
@@ -88,13 +95,89 @@ ul {
 }
 .top {
   padding-top: 30px;
+  padding-bottom:30px;
 }
 .bottom {
   display:flex;
-  gap: 20px;
+  gap: 10px;
   justify-content: center;
   align-items: center;
-  padding: 100px 200px;
+  padding-left:  200px;
+  padding-right: 200px;
+  padding-bottom: 30px;
+
+
 
 }
+a {
+  font-size: 18px;
+  color: #E5E7EB;
+  text-decoration: none;
 
+}
+.quote {
+  display:flex;
+  flex-direction: column;
+  padding-left:15%;
+  padding-right: 15%;
+  background-color: #E5E7EB;
+  padding-top:70px;
+  padding-bottom:70px;
+
+}
+.text2 {
+  font-size: 36px;
+  color:#1F2937;
+  font-weight: 300;
+  font-style: italic;
+  text-align: left;
+}
+.author {
+  font-weight: 600;
+  font-size: 18px;
+  text-align: right;
+  text-wrap: wrap;
+}
+.signup {
+  margin: 30px 200px;
+  padding: 30px 100px;
+  text-align: left;
+  background-color: #3882F6;
+  color:#F9FAF8;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  align-items: center;
+}
+.left3 {
+  color: F9FAF8;
+}
+
+.title {
+  font-weight:bold;
+  font-size: 22px;
+  margin:0;
+}
+.text3 {
+  font-size: 18px;
+  margin:5px 0 0;
+}
+.signup_button {
+  border-radius: 10px;
+  color: #F9FAF8;
+  font-weight: 500;
+  width:150%;
+  border: 3px solid #F9FAF8; 
+  white-space: nowrap;
+}
+.footer {
+  display: flex;
+  background-color: #1F2937;
+  color: #F9FAF8;
+  text-align: center;
+  justify-content: center;
+  margin: 0;
+  padding-top:30px;
+  padding-bottom: 30px;
+  flex-shrink: 0;
+}
